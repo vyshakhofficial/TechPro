@@ -1,0 +1,44 @@
+{
+    "avatars": {
+      "Me": "/assets/boy.png",
+      "Sister": "/assets/girlpng.png",
+      "Brother": "/assets/brother.png",
+      "Cousin 1": "/assets/cousin.webp",
+      "Cousin 2": "/assets/cousin2.webp",
+      "Dad & Mom": "/assets/motherfather.png",
+      "Uncle & Aunt": "/assets/uncleaunt.webp",
+      "Grandparents": "/assets/grandparents.png",
+      "Aunt": "/assets/aunt.png",
+      "Uncle": "/assets/uncle.webp",
+      "Second Cousin": "/assets/secondCousin.webp"
+    },
+    "familyTree": {
+      "name": "Grandparents",
+      "children": [
+        {
+          "name": "Dad & Mom",
+          "children": [
+            { "name": "Me" },
+            { "name": "Sister" },
+            { "name": "Brother" }
+          ]
+        },
+        {
+          "name": "Uncle & Aunt",
+          "children": [
+            { "name": "Cousin 1" },
+            { "name": "Cousin 2" }
+          ]
+        },
+        {
+          "name": "Aunt",
+          "children": [
+            { "name": "Uncle", "children": [
+              { "name": "Second Cousin" }
+            ]}
+          ]
+        }
+      ]
+    }
+  }
+  
